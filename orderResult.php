@@ -68,7 +68,7 @@
 	<div>
 		<h3><u><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>Итого: </u> <?php echo number_format($total); ?> рублей </h3>
 		<br>
-      <h2 style="color: red">Спасибо что выбрали SpearLex Tech Store!</h2>
+      <h2 style="color: red">Спасибо что выбрали SpearLex Tech Store! На вашу почту будет отправлено письмо с дальнейшей информацией о оплате и доставке.</h2>
       <h2><a id="continue" href="product.php"> Нажмите здесь чтобы вернуться к товарам</a></h2>
       
 	</div>
@@ -77,7 +77,6 @@
 <?php require('footer.php'); ?>
 
 <?php
- //Clear the cart after checked out.
 
  unset($_SESSION['cart']);
 
